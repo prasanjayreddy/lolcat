@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <style>
+            body{
+                background-color:  rgba(0, 0, 0, 0.7);
+            }
+            #row{
+                text-align: center;
+                padding: 12px 0px 12px 0px;
+                margin: 0px;
+            }
+            #col ,#col1{
+                background-color: black;
+                color: whitesmoke;
+                padding: 12px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            #col:hover{
+                padding: 7px;
+                font-size: 20px;
+            }
+            .welcome{
+                position: relative;
+                background-image: url('images/unsplash.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .top{
+                display: block;
+                font-size: 36px;
+                font-weight: bold;
+                text-align: center;
+                color: whitesmoke;
+                background-color: black;
+                border-radius: 30px;
+                margin: 20px 60px 0px 60px;
+            }
+            #img-block{
+                position: relative;
+                padding-left: 60px;
+                align-content: center;
+                height: 250px;
+                width: 300px;
+                background-color:  rgba(0, 0, 0, 0);
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 40px;
+            }
+            #img-block:hover{
+                opacity: 0.5;
+            }
+            #tesla{
+                position: relative;
+                display: block;
+                background-image: url('images/tesla-logo.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-color: rgba(0, 0, 0, 0.4);
+                background-position: left top;
+                height: 200px;
+                width: 600px;
+                border-radius: 20px;
+                margin: 40px;
+            }
+            #text{
+                position: relative;
+                color: whitesmoke;
+                margin-left: 250px;
+                text-align: center;
+                font-size: x-large;
+            }
+            #logo-text{
+                position: absolute;
+                font-size: 30px;
+                font-family: cursive;
+                color: whitesmoke;
+                padding: 210px 0px 0px 35px;
+            }
+            #spl{
+                background-color:black;
+                border-radius: 16px;
+                margin-top: 30px;
+            }
+            #spl2{
+                background-color:white;
+                border-radius: 16px;
+                margin-top: 30px;
+            }
+            #max{
+                padding-left: 60px;
+                align-content: center;
+                height: 300px;
+                width: 500px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 30px;
+            }
+            .fa-instagram:hover{color: rgb(255, 0, 179);}
+            .fa-twitter:hover{color: rgb(0, 140, 255);}
+            .fa-linkedin:hover{color: rgb(76, 0, 255);}
+            .fa-pinterest-square:hover{color: rgb(255, 0, 0);}
+            .fa-copyright:hover{color: rgb(255, 196, 0);}
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="row" id="row">
+                <div class="col-2" id="col" style="border-top-left-radius: 10px;border-bottom-left-radius: 10px; margin-left: 50px;">HOME</div>
+                <div class="col-2" id="col">PRODUCTS</div>
+                <div class="col-2" id="col">ABOUT US</div>
+                <div class="col-2" id="col">POLICY</div>
+                <div class="col" id="col1" style="border-bottom-right-radius: 10px;border-top-right-radius: 10px;margin-right: 50px;">
+                    <input type="text" placeholder="search...">
+                </div>
+            </div>
+        </header>
+        <div class="welcome">
+            <p style="font-style: italic;font-size: 64px;padding:100px 0px 0px 160px;">"welcome"</p>
+            <p style="font-size: 56px;padding:0px 0px 0px 160px;">to the world of 
+                <span style="font-size: 64px;font-family: fantasy;padding-left: 10px;">CARS</span>
+            </p>
+            <p style="margin-top: 300px;margin-bottom: auto; color: black;">CarsGarage</p>
+        </div>
+        <p class="top">Top selling</p>
+        <div class="container">
+            <div class="row">
+                <div id="img-block" style="background-image: url('images/ford-logo.png');"><p id="logo-text">FORD</p></div>
+                <div id="img-block" style="background-image: url('images/honda-logo.png');"><p id="logo-text">HONDA</p></div>
+                <div id="img-block" style="background-image: url('images/hyundai-logo.png');"><p id="logo-text">HYUNDAI</p></div>
+                <div id="img-block" style="background-image: url('images/toyota-logo.png');"><p id="logo-text">TOYOTA</p></div>
+                <div id="img-block" style="background-image: url('images/suzuki-logo.png');"><p id="logo-text">SUZUKI</p></div>
+                <div id="img-block" style="background-image: url('images/skoda-logo.png');"><p id="logo-text">SKODA</p></div>
+            </div>
+        </div>
+        <p class="top">#rideTesla</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-11" id="tesla">
+                    <p id="text">Tesla is accelerating the world's transition to sustainable energy with electric cars, 
+                    solar and integrated renewable energy solutions for homes and businesses.<br><br>
+                    ElonMusk's TESLA</p>
+                </div> 
+            </div>
+            <div class="row" id="spl2">
+                <div id="max" style="background-image: url('images/convertible.png');"></div>
+                <div id="max" style="background-image: url('images/suv.png');"></div>
+                <div id="max" style="background-image: url('images/7seater.png');"></div>
+                <div id="max" style="background-image: url('images/sports.png');"></div>
+            </div>
+        </div>
+        <p class="top">#BeUnique with these</p>
+        <div class="container">
+            <div class="row" id="spl">
+                <div id="img-block" style="background-image: url('images/rolls-royce-logo.png');"></div>
+                <div id="img-block" style="background-image: url('images/volkswagen-logo.png');"></div>
+                <div id="img-block" style="background-image: url('images/mercedes-benz-logo.png');"></div>
+                <div id="img-block" style="background-image: url('images/audi-logo.png');"></div>
+                <div id="img-block" style="background-image: url('images/lamborghini-logo.png');"></div>
+                <div id="img-block" style="background-image: url('images/jaguar-logo.png');"></div>
+            </div>
+        </div>
+        <footer style="background-color: black;margin-top: 30px;height: 120px;">
+            <h4 style="text-align: center;color: whitesmoke;padding-top: 20px;">This website is just for entertainment  <i class="fa fa-heart" style="font-size:24px;color: red;"></i></h4>
+            <h3 style="color: whitesmoke;margin-left: 30px;">Join us on: 
+                <i class="fa fa-instagram" style="margin-left: 8px;"></i>
+                <i class="fa fa-twitter" style="margin-left: 8px;"></i>
+                <i class="fa fa-linkedin" style="margin-left: 8px;"></i>
+                <i class="fa fa-pinterest-square" style="margin-left: 8px;"></i>
+                <i class="fa fa-copyright" style="margin-left:700px;font-size: 18px;"> developers limited @2021</i>
+            </h3>
+        </footer>
+    </body>
+</html>
